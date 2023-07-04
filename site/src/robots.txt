@@ -1,4 +1,0 @@
-User-agent: *
-Allow:
-
-Sitemap: https://earn.com.mx/sitemap.xml
