@@ -152,7 +152,7 @@ ul.breadcrumb li a {
 
 /* HERO */
 #hero {
-    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../images/earn-servicios.jpg);
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.99), rgba(var(--c-brand-rgb), 0.7)), url(../images/earn-servicios.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -236,7 +236,7 @@ ul.breadcrumb li a {
 
 /* INDUSTRIAS */
 #-industrias {
-    margin-top: 50px;
+    margin-top: 30px;
     background: linear-gradient(rgba(var(--c-brand-rgb), 0.5), rgba(var(--c-brand-rgb), 0.5)), url(../images/cloud-industrias.jpg);
     background-position: center;
     background-size: cover;
@@ -247,6 +247,22 @@ ul.breadcrumb li a {
     background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/hero-1.jpg);
     background-position: center;
     background-size: cover;
+}
+
+#-asociaciones {
+    margin-top: 30px;
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0 40px 0;
+}
+
+#-industrias {
+    margin-top: 30px;
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0 40px 0;
 }
 
 /* PORTFOLIO */
