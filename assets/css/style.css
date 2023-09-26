@@ -11,6 +11,10 @@
     --font-base: "ClashDisplay", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --transition: all 0.5s ease;
+    --azul-claro: #007bbd; 
+    --azul-med: #005b99;
+    --azul-fte: #002e5d;
+
 
     
 
@@ -21,6 +25,7 @@ body {
     font-family: var(--font-base);
     line-height: 1.7;
     color: var(--c-body);
+    
 }
 
 h1, h2, h3,h4, h5, h6,
@@ -43,6 +48,41 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 6px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+
+  /* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+
 
 .section-padding {
     padding-top: 140px;
@@ -265,13 +305,13 @@ img {
 }
 
 /* CONTACT */
-#contact {
+#contacto {
     position: relative;
     z-index: 2;
     margin-top: 50px;
 }
 
-#contact::after {
+#contacto::after {
     content: "";
     width: 100%;
     height: 70%;
@@ -284,11 +324,11 @@ img {
     z-index: -1;
 }
 
-#contact .form-control {
+#contacto .form-control {
     border-radius: 0;
 }
 
-#contact .form-control:focus {
+#contacto .form-control:focus {
     box-shadow: none;
     border-color: var(--c-brand);
 }
@@ -296,6 +336,7 @@ img {
 /* FOOTER */
 footer {
     padding-top: 120px;
+    background-color: VAR(--azul-fte);
 }
 
 .footer-top {
